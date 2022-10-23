@@ -1,0 +1,29 @@
+header {
+    background-color: #eeeeee;
+    /* cor temporária, apenas para ajustar elemento */
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family: var(--fonte-reuti);
+    /* gap: 40vw; */
+}
+
+a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--verde-escuro);
+}
+
+.logo_menu {
+    height: 7rem;
+}

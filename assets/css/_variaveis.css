@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;900&family=Satisfy&display=swap');
+
+:root {
+    --verde-escuro: #038C4C;
+    --verde-claro: #8CBF7E;
+    --amarelo: #F2A444;
+    --marrom: #73461F;
+    --vermelho: ##F25749;
+
+    --fonte-reuti: 'Righteous', cursive;
+    --fonte-licias: 'Satisfy', cursive;
+    --fonte-conteudo: 'Roboto', sans-serif;
+    --fonte-conteudo-cond: 'Roboto Condensed', sans-serif;
+
+
+    /* outros exemplos */
+    --peso-titulo-destaque: 900;
+    --peso-botao: 700;
+
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+}

@@ -1,0 +1,35 @@
+.rodape {
+    background-color: var(--verde-escuro);
+    color: #ffffff;
+    padding-bottom: 0.8rem;
+}
+
+.email-redes {
+    font-family: var(--fonte-reuti);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 5rem
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.icones {
+    height: 1.6rem;
+}
+
+.rodape-info {
+    font-family: var(--fonte-conteudo);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.rodape-info p {
+    padding: 0.3rem;
+}
