@@ -1,0 +1,475 @@
+button.btn-login a {
+
+  display: block;
+  padding: 15px;
+  color: #313548;
+  font-size: 17px;
+}
+
+section#banner-parceria {
+
+  background-image: url(../imagens/bannerparceria.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: -0px -80px 80px 6px black inset;
+}
+
+section#banner-parceria h1 {
+
+  position: absolute;
+  bottom: 50px;
+  color: #FFFFFA;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+section#programa-parceiros {
+
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #FFFFFA;
+
+}
+
+.container-text {
+
+
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.container-text h1 {
+
+  line-height: 40px;
+  color: #313548;
+
+}
+
+.container-text p {
+
+  color: black;
+  text-align: justify;
+  line-height: 30px;
+
+}
+
+section#programa-parceiros h1.btn {
+
+  color: #FFFFFA;
+  background-color: #313548;
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 5%;
+
+}
+
+section#programa-parceiros ul li {
+
+  list-style-type: disc;
+  line-height: 35px;
+
+}
+
+.recursos {
+
+  width: 100%;
+
+  display: flex;
+  margin-bottom: 5%;
+}
+
+.contentimg {
+
+  width: 30%;
+  background-image: url(../imagens/apartamentos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-text-recursos {
+
+  width: 70%;
+
+  text-align: justify;
+}
+
+
+
+
+section#programa-parceiros .planos-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+
+}
+
+section#programa-parceiros .planos-container figure img {
+
+  min-height: 150px;
+  max-height: 300px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  transition: all 0.7s;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+section#programa-parceiros .planos-container figure {
+
+  width: 30%;
+  margin-bottom: 10%;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.986);
+  border-radius: 15px;
+
+}
+
+section#programa-parceiros .planos-container figure img:hover {
+
+  opacity: 0.8;
+  box-shadow: inset 0 0 1em, 0 0 1em black;
+}
+
+section#programa-parceiros .planos-container figcaption {
+
+
+  height: auto;
+  padding: 15px;
+  border-radius: 0px;
+}
+
+section#programa-parceiros .planos-container figcaption h3 {
+
+  color: #313548;
+  line-height: 35px;
+
+}
+
+section#programa-parceiros .planos-container figcaption p {
+
+  color: #313548;
+
+}
+
+form.form-parceria {
+
+  width: 100%;
+  height: 70%;
+  padding-bottom: 5%;
+
+}
+
+.centralizar {
+
+  display: flex;
+  justify-content: center;
+}
+
+form.form-parceria .input {
+
+
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  color: #313548;
+
+
+
+}
+
+form.form-parceria label {
+
+
+  line-height: 30px;
+  color: #313548;
+
+}
+
+form.form-parceria input {
+
+
+  border: 1px solid grey;
+  color: #8d8e90;
+  margin-bottom: 10%;
+  padding: 10px;
+  background-color: #d9dade;
+  height: 50px;
+
+}
+
+form.form-parceria input::placeholder {
+
+
+  color: #8d8e90;
+  font-size: 16px;
+
+}
+
+section#programa-parceiros button {
+
+  margin-top: 5%;
+  padding: 15px;
+  width: 200px;
+  background-color: #313548;
+  border: none;
+}
+
+section#programa-parceiros button:hover {
+
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+section#programa-parceiros button a {
+
+  color: #fffffa;
+  font-size: 20px;
+}
+
+form.form-parceria textarea::placeholder {
+
+
+  color: #8d8e90;
+  font-size: 16px;
+  padding: 15px;
+
+}
+
+
+form.form-parceria select {
+
+
+  border: 1px solid grey;
+  margin-bottom: 10%;
+  color: #8d8e90;
+  background-color: #d9dade;
+  height: 50px;
+  font-size: 16px;
+
+}
+
+form.form-parceria .input textarea {
+
+
+  width: 100%;
+
+}
+
+form.form-parceria textarea {
+
+
+
+  background-color: #d9dade;
+
+}
+
+form.form-parceria .input-textarea {
+
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: #313548;
+
+
+
+}
+
+
+.conteudo-form {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px;
+  width: 100%;
+}
+
+@media(max-width: 575.98px) {
+
+  .container-text {
+
+
+    margin-bottom: 10%;
+  
+  }
+
+  .recursos {
+
+  
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+   
+  }
+
+  .contentimg {
+    
+    width: 100%;
+    height: 250px;
+    background-image: url(../imagens/apartamentos.jpg);
+    background-size: cover;
+  }
+  
+  .container-text-recursos {
+  
+    width: 100%;
+  }
+
+  .planos-container {
+
+    margin-bottom: 10%;
+  }
+  
+  section#programa-parceiros .planos-container figure {
+  
+
+    width: auto;
+  
+  }
+
+  form.form-parceria .input {
+
+
+    width: 45%;
+  
+  
+  
+  }
+
+  section#programa-parceiros button {
+
+    margin-top: 10%;
+  }
+
+}
+
+  @media(min-width: 576px) and (max-width: 767.98px) {
+
+   
+    .container-text {
+
+
+      margin-bottom: 10%;
+    
+    }
+  
+    .recursos {
+  
+    
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10%;
+     
+    }
+  
+    .contentimg {
+      
+      width: 100%;
+      height: 250px;
+      background-image: url(../imagens/apartamentos.jpg);
+      background-size: cover;
+    }
+    
+    .container-text-recursos {
+    
+      width: 100%;
+    }
+  
+    .planos-container {
+  
+      margin-bottom: 10%;
+    }
+    
+    section#programa-parceiros .planos-container figure {
+    
+  
+      width: auto;
+    
+    }
+  
+    form.form-parceria .input {
+  
+  
+      width: 45%;
+    
+    
+    
+    }
+  
+    section#programa-parceiros button {
+  
+      margin-top: 10%;
+    }
+
+  }
+
+  @media(min-width: 768px) and (max-width: 991.98px) {
+
+   
+    .container-text {
+
+
+      margin-bottom: 10%;
+    
+    }
+  
+    .recursos {
+  
+    
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10%;
+     
+    }
+  
+    .contentimg {
+      
+      width: 100%;
+      height: 250px;
+      background-image: url(../imagens/apartamentos.jpg);
+      background-size: cover;
+    }
+    
+    .container-text-recursos {
+    
+      width: 100%;
+    }
+  
+    .planos-container {
+  
+      margin-bottom: 10%;
+    }
+    
+    section#programa-parceiros .planos-container figure {
+    
+  
+      width: auto;
+    
+    }
+  
+    form.form-parceria .input {
+  
+  
+      width: 45%;
+    
+    
+    
+    }
+  
+    section#programa-parceiros button {
+  
+      margin-top: 10%;
+    }
+
+  }

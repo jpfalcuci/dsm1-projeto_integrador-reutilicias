@@ -1,0 +1,209 @@
+button.btn-login a {
+
+  display: block;
+  padding: 15px;
+  color: #313548;
+  font-size: 17px;
+}
+
+section#banner {
+
+  background-image: url(../imagens/banner.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  box-shadow: -0px -80px 80px 6px black inset;
+}
+
+
+section#banner h1 {
+
+  position: absolute;
+  bottom: 50px;
+  color: #FFFFFA;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+section#painel_imoveis {
+
+  display: flex;
+  flex-direction: row;
+  background-color: #FFFFFA;
+}
+
+
+.catalogoteste {
+
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: auto;
+  flex-wrap: wrap;
+  margin-top: 10%;
+  padding-left: 10%;
+}
+
+.catalogoteste figure {
+  margin-bottom: 10%;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.986);
+  border-radius: 15px;
+  margin-right: 5%;
+
+}
+
+
+.catalogoteste figure img {
+
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+
+.catalogoteste figure img:hover {
+
+  opacity: 0.8;
+  box-shadow: inset 0 0 1em, 0 0 1em black;
+}
+
+.catalogoteste figcaption {
+
+
+  height: auto;
+  padding: 15px;
+}
+
+.catalogoteste figcaption h1 {
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #313548;
+}
+
+.catalogoteste figcaption hr {
+
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.catalogoteste figcaption p {
+
+  color: grey;
+}
+
+.catalogotestefigcaption h2 {
+
+  color: #313548;
+}
+
+.catalogoteste figcaption h2 span p {
+
+  color: #313548;
+  float: right;
+
+}
+
+aside {
+
+  margin-top: 5%;
+}
+
+aside h1 {
+
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #313548;
+}
+
+aside hr {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1.7pt solid #313548;
+
+}
+
+.buscadorimoveis {
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.buscadorimoveis select {
+
+  width: 100%;
+  background-color: #FFFFFA;
+  border: 1px solid #d6d7da;
+  font-size: 15px;
+  color: #313548;
+  padding: 15px;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.buscadorimoveis button {
+
+  background-color: #313548;
+  padding: 15px;
+  border: none;
+}
+
+.buscadorimoveis button a {
+
+  color: #FFFFFA;
+  font-size: 20px;
+}
+
+
+
+.buscadorimoveis h3 {
+
+  font-weight: normal;
+  color: #313548;
+  font-size: 15px;
+  margin-bottom: 2%;
+
+}
+
+@media(max-width: 575.98px) {
+
+  section#painel_imoveis {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .catalogoteste {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    padding-left: 4%;
+    padding-right: 0%;
+  }
+
+  .catalogoteste figure {
+
+    width: 70%;
+  }
+
+  .buscadorimoveis {
+
+    padding: 15px;
+    margin-bottom: 15%;
+  
+  }
+
+}

@@ -1,0 +1,2387 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  overflow-x: hidden;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+}
+
+option {
+  font-size: 16px;
+}
+
+/* Inicio Configuracao Header */
+
+section#rodape {
+  width: 100%;
+  background-color: #313548;
+}
+
+.rodape-header {
+  position: relative;
+  z-index: 3;
+  height: 40vh;
+  width: 100%;
+}
+
+.rodape-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+  background: url(../imagens/apartamentos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.conteudo-rodape-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+}
+
+.cards-rodape-header:first-child {
+  margin-left: 5%;
+}
+
+.cards-rodape-header:last-child {
+  margin-right: 5%;
+}
+
+.cards-rodape-header {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  width: 30%;
+  margin: 1%;
+}
+
+.cards-rodape-header p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cards-rodape-header h1 {
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.container-icone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+  background-color: #313548;
+}
+
+.container-icone img.email-header-footer {
+  max-height: 60%;
+}
+
+.container-icone img.telefone-header-footer {
+  max-height: 50%;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%;
+  height: 100%;
+  background-color: #313548;
+  opacity: 0.8;
+  color: white;
+  padding: 3% 0px 0px 5%;
+}
+
+.rodape-main {
+  padding: 100px 100px 25px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.socialmedia_footer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.socialmedia_footer .redes-sociais {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 8px;
+}
+
+.socialmedia_footer .redes-sociais a img {
+  margin-top: 15%;
+  width: 80px;
+}
+
+.navegacao_footer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.infos_footer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.banner-footer img {
+  width: 100%;
+}
+
+.infos_footer hr {
+  border: 1px solid #b3b3b9;
+  margin-bottom: 3%;
+}
+
+hr.separador-rodape {
+  border: 1px solid #b3b3b9;
+}
+
+.infos_footer-conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.ultimo {
+  margin-bottom: 15%;
+}
+
+.infos_footer-conteudo h3 {
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.infos_footer-conteudo span {
+  color: #b3b3b9;
+  font-size: 14px;
+  text-transform: none;
+}
+
+.infos_footer-conteudo img {
+  margin-right: 3%;
+}
+
+.infos_footer-conteudo img.endereco {
+  margin-top: -5%;
+}
+
+.rodape-main h1::before {
+  content: "";
+  height: 5%;
+  border: 2px solid #cd4631;
+  margin-right: 3%;
+}
+
+.navegacao_footer ul {
+  margin-top: 5%;
+  border-left: 1px solid #b3b3b9;
+}
+
+.navegacao_footer ul li a {
+  color: white;
+  font-size: 15px;
+}
+
+.navegacao_footer ul li a:hover {
+  color: #cd4631;
+}
+
+.navegacao_footer li {
+  padding: 15px;
+}
+
+.rodape-main h1 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 5%;
+}
+
+.rodape-main .infos_footer h1 {
+  margin-bottom: 10%;
+}
+
+.socialmedia_footer img {
+  max-width: 70%;
+  margin-bottom: 50%;
+}
+
+.rodape-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 35px;
+}
+
+.direitos-footer-bottom h1 {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.direitos-footer-bottom span {
+  color: #b3b3b9;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.rodape-bottom img {
+  width: 5%;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: #fffffa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ #menu {
+  left: 0;
+}
+
+.menu-header {
+  cursor: pointer;
+}
+
+/* Inicio Configuracao Menu do Site */
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: -100%;
+  transition: all 1.5s;
+  z-index: 999;
+  overflow-x: hidden;
+}
+
+#menu-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-image: url(../imagens/background_menu_.png);
+  order: 1;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+#conteudo-social {
+  margin-bottom: 25px;
+}
+
+.title-imobiliaria {
+  margin-left: 25px;
+  margin-bottom: 15px;
+  color: #313548;
+}
+
+.title-imobiliaria span {
+  margin-left: 0px;
+}
+
+.tel {
+  margin-left: 25px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.tel span p {
+  margin-left: 20px;
+}
+
+.tel img {
+  position: absolute;
+  bottom: 0;
+}
+
+.email {
+  margin-left: 25px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.email span p {
+  margin-left: 20px;
+}
+
+.email img {
+  position: absolute;
+  bottom: 0;
+}
+
+#menu-socialmedia {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+#menu-socialmedia a img {
+  padding-right: 10px;
+  width: 45px;
+}
+
+#menu-lista {
+  height: 100%;
+  width: 80%;
+  float: right;
+  background-color: #313548;
+  position: relative;
+  order: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#menu-lista nav ul {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+#menu-lista nav ul h1 {
+  display: inline-block;
+  color: #fffffa;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+#menu-lista nav ul h1:first-child {
+  margin-top: 0;
+}
+
+#menu-lista nav ul li a h3 {
+  color: white;
+  font-weight: normal;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  transition: all 0.7s;
+}
+
+#menu-lista nav ul li a h3:hover {
+  background-color: #fffffa;
+  color: #313548;
+  padding-left: 5px;
+}
+
+#fechar-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menu-header {
+  cursor: pointer;
+}
+
+.logo-principal a img {
+  cursor: pointer;
+  width: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.btn-login {
+  border: 1px solid #313548;
+  cursor: pointer;
+  background-color: #fffffa;
+}
+
+button.btn-login a {
+  display: block;
+  padding: 15px;
+  color: #313548;
+  font-size: 16px;
+}
+
+button.btn-login a:hover {
+  color: #fffffa;
+  background: #313548;
+}
+
+/* Fim Configuracao Header */
+
+/* ---------------------------------------------- */
+
+/* Inicio Configuracao Menu de Seleção de Imoveis */
+
+section.imoveis-selecao {
+  background-image: url(../imagens/fundo_imoveis_selecao.jpg);
+  height: 402px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.conteudo1 {
+  border-top: none;
+  display: none;
+  height: auto;
+}
+
+.geral {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.catalogoo {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-left: 25%;
+}
+
+.conteudoa {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  height: auto;
+}
+
+.testandop {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.tab1 {
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.tab1 button {
+  width: 100%;
+  height: auto;
+  background-color: #fffffa;
+  padding: 15px;
+  display: inline-block;
+  cursor: pointer;
+  color: #313548;
+  font-weight: bold;
+  border: none;
+}
+
+.tab1 button.ativo1 {
+  color: #fffffa;
+  background-color: #313548;
+}
+
+select {
+  display: inline-flex;
+  border: none;
+  padding: 10px;
+  height: 50px;
+  margin: 0;
+  color: #fffffa;
+  font-size: 14pt;
+  background-color: #31354859;
+}
+
+button.buscar {
+  background-color: #313548;
+  opacity: 0.9;
+  border: none;
+  height: 50px;
+}
+
+button.buscar img {
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: auto;
+}
+
+.item-opcoes {
+  text-align: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.336);
+  width: 100%;
+  height: 50px;
+}
+
+/* Fim Configuracao Menu de Seleção de Imoveis */
+
+/* Inicio Configuracao Catalogo de Imoveis */
+
+section.catalogo-imoveis {
+  padding: 50px;
+  background-color: #fffffa;
+}
+
+.tab {
+  border-bottom: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8%;
+  margin-top: 5%;
+  overflow-x: hidden;
+}
+
+.tab button {
+  margin-right: 5%;
+  width: auto;
+  background-color: #fffffa;
+  padding: 20px;
+  display: block;
+  cursor: pointer;
+  color: #313548;
+  font-weight: bold;
+  border: none;
+  float: left;
+}
+
+.tab button:last-child {
+  margin-right: 0;
+}
+
+.tab button h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.tab button.ativo {
+  color: white;
+  background-color: #313548;
+}
+
+.conteudo {
+  border-top: none;
+  padding: 6px 12px;
+  display: none;
+  height: auto;
+}
+
+.catalogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+figure img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  transition: all 0.7s;
+  cursor: pointer;
+  height: 300px;
+  object-fit: cover;
+}
+
+figure {
+  width: 30%;
+  margin-bottom: 10%;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.986);
+  border-radius: 15px;
+}
+
+
+
+figure img:hover {
+  opacity: 0.8;
+  box-shadow: inset 0 0 1em, 0 0 1em black;
+}
+
+figcaption {
+  height: auto;
+  padding: 15px;
+}
+
+figcaption h1 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #313548;
+}
+
+figcaption hr {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+figcaption p {
+  color: grey;
+}
+
+figcaption h2 {
+  color: #313548;
+}
+
+figcaption h2 span p {
+  color: #313548;
+  float: right;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+}
+
+button.btn_catalogo-imoveis {
+  border: none;
+  cursor: pointer;
+  background-color: #313548;
+}
+
+button.btn_catalogo-imoveis a {
+  display: block;
+  font-size: 21px;
+  padding: 25px;
+  color: #fffffa;
+}
+
+button.btn_catalogo-imoveis a:hover {
+  opacity: 0.6;
+}
+
+/* Fim Configuracao Catalogo de Imoveis */
+
+/* ----------------------------------------*/
+
+/* Inicio Configuracao Servicos de Imoveis */
+
+section#imoveis-servicos {
+  width: 100%;
+  height: auto;
+  padding: 55px;
+  padding-bottom: 10%;
+  background-color: #313548;
+  display: inherit;
+}
+
+section#imoveis-servicos nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+section#imoveis-servicos nav ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  width: 33%;
+  margin-right: 5%;
+  position: relative;
+  background-color: #313548;
+  color: #fffffa;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+section#imoveis-servicos nav ul li:last-child {
+  margin-right: 0;
+}
+
+section#imoveis-servicos nav ul li:hover {
+  opacity: 0.6;
+  transform: scale(1.1);
+  color: #fffffa;
+}
+
+section#imoveis-servicos nav ul li img {
+  position: absolute;
+  width: 50%;
+  height: auto;
+}
+
+.contenttext {
+  width: 100%;
+  height: 100%;
+  margin-top: 60%;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.contenttext h3 {
+  word-wrap: break-word;
+}
+
+.contenttext p {
+  margin-top: 25px;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+button.btn-cadastrar {
+  cursor: pointer;
+  background: #fffffa;
+  border: none;
+}
+
+button.btn-cadastrar a {
+  display: block;
+  padding: 15px;
+  color: #313548;
+}
+
+button.btn-cadastrar a:hover {
+  color: white;
+  background: #313548;
+}
+
+/* Fim Configuracao Servicos de Imoveis */
+
+/* ------------------------------------ */
+
+/* Inicio Configuracao Newsletter */
+
+section#newsletter {
+  height: 40%;
+  background-color: #fffffa;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-newsletter h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #313548;
+  font-size: 20px;
+}
+
+.conteudo-newsletter {
+  display: flex;
+  align-items: center;
+}
+
+.conteudo-newsletter img.icone_email {
+  margin-right: 15px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+input.email {
+  font-size: 18px;
+  border: 3px solid grey;
+  height: 60px;
+  width: 300px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: #fffffa;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-position: 10px;
+  background-image: url(../imagens/icone-usuario.png);
+}
+
+input.submit {
+  color: #fffffa;
+  background-color: #313548;
+  border: 3px outset #313548;
+  height: 60px;
+  padding: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  font-size: 17px;
+}
+
+/* Fim Configuracao Newsletter */
+
+/* ---------------------------- */
+
+/* Inicio Configuracao Rodape */
+
+/* Fim Configuracao Rodape */
+
+/* ---------------------------- */
+
+/* Inicio Configuracao Footer */
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fffffa;
+  width: 100%;
+  padding: 10px;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+}
+
+footer img {
+  padding-right: 10px;
+  width: 45px;
+}
+
+@media (min-width: 300px) and (max-width: 391px) {
+  .menu-header {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+  }
+
+  #check {
+    display: none;
+  }
+
+  #check:checked ~ #menu {
+    left: 0;
+  }
+
+  /* Inicio Configuracao Menu do Site */
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    transition: all 1.5s;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  #menu-social {
+    display: flex;
+    background-image: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fffffa;
+    order: 2;
+    height: 100%;
+  }
+
+  .title-imobiliaria {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #313548;
+  }
+
+  .title-imobiliaria span h1 {
+    margin-left: 0px;
+  }
+
+  .tel {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .tel span p {
+    margin-left: 20px;
+  }
+
+  .tel img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .email {
+    font-size: 15px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .email span p {
+    margin-left: 20px;
+  }
+
+  .email img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  #menu-socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  #menu-socialmedia a img {
+    padding-right: 10px;
+    width: 45px;
+  }
+
+  #menu-lista {
+    width: 100%;
+    height: auto;
+    background-color: #313548;
+    order: 1;
+    position: relative;
+  }
+
+  /* Fim Configuracao Menu do Site */
+
+  .logo-principal a img {
+    position: absolute;
+    left: 70px;
+  }
+
+  button.btn-login {
+    margin-right: 50px;
+  }
+
+  .catalogoo {
+    justify-content: flex-start;
+    margin-left: 0%;
+  }
+
+  .conteudoa {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 button h1 {
+    font-size: 8px;
+  }
+
+  select {
+    font-size: 10pt;
+  }
+
+  button.btn-cadastrar a {
+    padding: 10px;
+  }
+
+  .tab button {
+    margin-right: 5%;
+    width: auto;
+    background-color: #fffffa;
+    padding: 8px;
+    display: block;
+    cursor: pointer;
+    color: #313548;
+    font-weight: bold;
+    border: none;
+    float: left;
+  }
+
+  .tab button h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  section#imoveis-servicos nav ul li {
+    margin-right: 8%;
+  }
+
+  .conteudo-newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conteudo-newsletter img.icone_email {
+    margin-bottom: 10px;
+  }
+
+  .conteudo-newsletter h1 {
+    margin-bottom: 10px;
+  }
+
+  input.email {
+    margin-bottom: 10px;
+  }
+
+  section#newsletter {
+    height: 60%;
+  }
+
+  .rodape-header {
+    height: 60vh;
+  }
+
+  .conteudo-rodape-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards-rodape-header:first-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+  }
+
+  .container-info {
+    padding: 0% 0px 0px 5%;
+  }
+
+  .rodape-main {
+    padding: 25px 100px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .socialmedia_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .socialmedia_footer .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .socialmedia_footer .redes-sociais a img {
+    margin-top: 15%;
+    width: 80px;
+  }
+
+  .socialmedia_footer a img.logo_footer {
+    margin-bottom: 10%;
+  }
+
+  .navegacao_footer {
+    margin-bottom: 15%;
+  }
+
+  .ultimo {
+    margin-bottom: 25%;
+  }
+
+  .infos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .direitos-footer-bottom h1 {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .direitos-footer-bottom span {
+    color: #b3b3b9;
+    font-size: 13px;
+    text-transform: none;
+  }
+
+  .rodape-bottom img {
+    width: 15%;
+  }
+}
+
+@media (min-width: 392px) and (max-width: 457px) {
+  .menu-header {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+  }
+
+  #check {
+    display: none;
+  }
+
+  #check:checked ~ #menu {
+    left: 0;
+  }
+
+  /* Inicio Configuracao Menu do Site */
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    transition: all 1.5s;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  #menu-social {
+    display: flex;
+    background-image: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fffffa;
+    order: 2;
+    height: 100%;
+  }
+
+  .title-imobiliaria {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #313548;
+  }
+
+  .title-imobiliaria span h1 {
+    margin-left: 0px;
+  }
+
+  .tel {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .tel span p {
+    margin-left: 20px;
+  }
+
+  .tel img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .email {
+    font-size: 15px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .email span p {
+    margin-left: 20px;
+  }
+
+  .email img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  #menu-socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  #menu-socialmedia a img {
+    padding-right: 10px;
+    width: 45px;
+  }
+
+  #menu-lista {
+    width: 100%;
+    height: auto;
+    background-color: #313548;
+    order: 1;
+    position: relative;
+  }
+
+  /* Fim Configuracao Menu do Site */
+
+  .logo-principal a img {
+    position: absolute;
+    left: 70px;
+  }
+
+  button.btn-login {
+    margin-right: 50px;
+  }
+
+  .catalogoo {
+    justify-content: flex-start;
+    margin-left: 0%;
+  }
+
+  .conteudoa {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 button h1 {
+    font-size: 10px;
+  }
+
+  select {
+    font-size: 10pt;
+  }
+
+  button.btn-cadastrar a {
+    padding: 10px;
+  }
+
+  .tab button {
+    margin-right: 5%;
+    width: auto;
+    background-color: #fffffa;
+    padding: 8px;
+    display: block;
+    cursor: pointer;
+    color: #313548;
+    font-weight: bold;
+    border: none;
+    float: left;
+  }
+
+  .tab button h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  section#imoveis-servicos nav ul li {
+    margin-right: 8%;
+  }
+
+  .conteudo-newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conteudo-newsletter img.icone_email {
+    margin-bottom: 10px;
+  }
+
+  .conteudo-newsletter h1 {
+    margin-bottom: 10px;
+  }
+
+  input.email {
+    margin-bottom: 10px;
+  }
+
+  section#newsletter {
+    height: 60%;
+  }
+
+  .rodape-header {
+    height: 60vh;
+  }
+
+  .conteudo-rodape-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards-rodape-header:first-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+  }
+
+  .container-info {
+    padding: 0% 0px 0px 5%;
+  }
+
+  .rodape-main {
+    padding: 25px 100px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .socialmedia_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .socialmedia_footer .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .socialmedia_footer .redes-sociais a img {
+    margin-top: 15%;
+    width: 80px;
+  }
+
+  .socialmedia_footer a img.logo_footer {
+    margin-bottom: 10%;
+  }
+
+  .navegacao_footer {
+    margin-bottom: 15%;
+  }
+
+  .ultimo {
+    margin-bottom: 25%;
+  }
+
+  .infos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .direitos-footer-bottom h1 {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .direitos-footer-bottom span {
+    color: #b3b3b9;
+    font-size: 13px;
+    text-transform: none;
+  }
+
+  .rodape-bottom img {
+    width: 15%;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 458px) and (max-width: 576px) {
+  .menu-header {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+  }
+
+  #check {
+    display: none;
+  }
+
+  #check:checked ~ #menu {
+    left: 0;
+  }
+
+  /* Inicio Configuracao Menu do Site */
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    transition: all 1.5s;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  #menu-social {
+    display: flex;
+    background-image: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fffffa;
+    order: 2;
+    height: 100%;
+  }
+
+  .title-imobiliaria {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #313548;
+  }
+
+  .title-imobiliaria span h1 {
+    margin-left: 0px;
+  }
+
+  .tel {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .tel span p {
+    margin-left: 20px;
+  }
+
+  .tel img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .email {
+    font-size: 15px;
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .email span p {
+    margin-left: 20px;
+  }
+
+  .email img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  #menu-socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  #menu-socialmedia a img {
+    padding-right: 10px;
+    width: 45px;
+  }
+
+  #menu-lista {
+    width: 100%;
+    height: auto;
+    background-color: #313548;
+    order: 1;
+    position: relative;
+  }
+
+  /* Fim Configuracao Menu do Site */
+
+  .logo-principal a img {
+    position: absolute;
+    left: 70px;
+  }
+
+  button.btn-login {
+    margin-right: 50px;
+  }
+
+  .catalogoo {
+    justify-content: flex-start;
+    margin-left: 0%;
+  }
+
+  .conteudoa {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 button h1 {
+    font-size: 12px;
+  }
+
+  select {
+    font-size: 12pt;
+  }
+
+  button.btn-cadastrar a {
+    padding: 10px;
+  }
+
+  .tab button {
+    margin-right: 5%;
+    width: auto;
+    background-color: #fffffa;
+    padding: 8px;
+    display: block;
+    cursor: pointer;
+    color: #313548;
+    font-weight: bold;
+    border: none;
+    float: left;
+  }
+
+  .tab button h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  section#imoveis-servicos nav ul li {
+    margin-right: 8%;
+  }
+
+  .conteudo-newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conteudo-newsletter img.icone_email {
+    margin-bottom: 10px;
+  }
+
+  .conteudo-newsletter h1 {
+    margin-bottom: 10px;
+  }
+
+  input.email {
+    margin-bottom: 10px;
+  }
+
+  section#newsletter {
+    height: 60%;
+  }
+
+  .rodape-header {
+    height: 60vh;
+  }
+
+  .conteudo-rodape-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards-rodape-header:first-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+  }
+
+  .container-info {
+    padding: 0% 0px 0px 5%;
+  }
+
+  .rodape-main {
+    padding: 25px 100px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .socialmedia_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .socialmedia_footer .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .socialmedia_footer .redes-sociais a img {
+    margin-top: 15%;
+    width: 80px;
+  }
+
+  .socialmedia_footer a img.logo_footer {
+    margin-bottom: 10%;
+  }
+
+  .navegacao_footer {
+    margin-bottom: 15%;
+  }
+
+  .ultimo {
+    margin-bottom: 25%;
+  }
+
+  .infos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .direitos-footer-bottom h1 {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .direitos-footer-bottom span {
+    color: #b3b3b9;
+    font-size: 13px;
+    text-transform: none;
+  }
+
+  .rodape-bottom img {
+    width: 15%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #check {
+    display: none;
+  }
+
+  #check:checked ~ #menu {
+    left: 0;
+  }
+
+  /* Inicio Configuracao Menu do Site */
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    transition: all 0.5s;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  #menu-social {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fffffa;
+    order: 2;
+    height: 100%;
+  }
+
+  .title-imobiliaria {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #313548;
+  }
+
+  .title-imobiliaria span {
+    margin-left: 0px;
+  }
+
+  .tel {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .tel span {
+    margin-left: 20px;
+  }
+
+  .tel img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .email {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .email span {
+    margin-left: 20px;
+  }
+
+  .email img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  #menu-socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  #menu-socialmedia a img {
+    padding-right: 10px;
+    width: 45px;
+  }
+
+  #menu-lista {
+    width: 100%;
+    height: auto;
+    background-color: #313548;
+    order: 1;
+    position: relative;
+  }
+
+  #menu-lista nav ul {
+    margin-top: 55px;
+    margin-left: 35px;
+  }
+
+  #menu-lista nav ul h1 {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fffffa;
+  }
+
+  #menu-lista nav ul li a {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: white;
+  }
+
+  #fechar-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  /* Fim Configuracao Menu do Site */
+
+  .catalogoo {
+    justify-content: flex-start;
+    margin-left: 0%;
+  }
+
+  .conteudoa {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .tab1 button h1 {
+    font-size: 12px;
+  }
+
+  select {
+    font-size: 12pt;
+  }
+
+  button.btn-cadastrar a {
+    padding: 10px;
+  }
+
+  figure {
+    width: 100%;
+  }
+
+  .conteudo-newsletter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .conteudo-newsletter img.icone_email {
+    margin-bottom: 10px;
+  }
+
+  .conteudo-newsletter h1 {
+    margin-bottom: 10px;
+  }
+
+  input.email {
+    margin-bottom: 10px;
+  }
+
+  section#newsletter {
+    height: 60%;
+  }
+
+  .rodape-header {
+    height: 60vh;
+  }
+
+  .conteudo-rodape-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards-rodape-header:first-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+  }
+
+  .container-info {
+    padding: 0% 0px 0px 5%;
+  }
+
+  .rodape-main {
+    padding: 25px 100px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .socialmedia_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .socialmedia_footer .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .socialmedia_footer .redes-sociais a img {
+    margin-top: 15%;
+    width: 80px;
+  }
+
+  .socialmedia_footer a img.logo_footer {
+    margin-bottom: 10%;
+  }
+
+  .navegacao_footer {
+    margin-bottom: 15%;
+  }
+
+  .ultimo {
+    margin-bottom: 25%;
+  }
+
+  .infos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .direitos-footer-bottom h1 {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .direitos-footer-bottom span {
+    color: #b3b3b9;
+    font-size: 13px;
+    text-transform: none;
+  }
+
+  .rodape-bottom img {
+    width: 15%;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #check {
+    display: none;
+  }
+
+  #check:checked ~ #menu {
+    left: 0;
+  }
+
+  /* Inicio Configuracao Menu do Site */
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: -100%;
+    transition: all 0.5s;
+    overflow-y: auto;
+    z-index: 999;
+  }
+
+  #menu-social {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #fffffa;
+    order: 2;
+    height: 100%;
+  }
+
+  .title-imobiliaria {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #313548;
+  }
+
+  .title-imobiliaria span {
+    margin-left: 0px;
+  }
+
+  .tel {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .tel span {
+    margin-left: 20px;
+  }
+
+  .tel img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .email {
+    margin-bottom: 15px;
+    position: relative;
+  }
+
+  .email span {
+    margin-left: 20px;
+  }
+
+  .email img {
+    position: absolute;
+    bottom: 0;
+  }
+
+  #menu-socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  #menu-socialmedia a img {
+    padding-right: 10px;
+    width: 45px;
+  }
+
+  #menu-lista {
+    width: 100%;
+    height: auto;
+    background-color: #313548;
+    order: 1;
+    position: relative;
+  }
+
+  #menu-lista nav ul {
+    margin-top: 55px;
+    margin-left: 35px;
+  }
+
+  #menu-lista nav ul h1 {
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fffffa;
+  }
+
+  #menu-lista nav ul li a {
+    display: inline-block;
+    margin-bottom: 4px;
+    color: white;
+  }
+
+  #fechar-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  /* Fim Configuracao Menu do Site */
+
+  .catalogoo {
+    justify-content: flex-start;
+    margin-left: 0%;
+  }
+
+  .conteudoa {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .tab1 {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .tab1 button h1 {
+    font-size: 16px;
+  }
+
+  select {
+    font-size: 14pt;
+  }
+
+  button.btn-cadastrar a {
+    padding: 10px;
+  }
+
+  figure {
+    width: 45%;
+  }
+
+  section#newsletter {
+    height: 60%;
+  }
+
+  .rodape-header {
+    height: 60vh;
+  }
+
+  .conteudo-rodape-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cards-rodape-header:first-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header:last-child {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+
+  .cards-rodape-header {
+    height: 25%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2%;
+  }
+
+  .container-info {
+    padding: 0% 0px 0px 5%;
+  }
+
+  .rodape-main {
+    padding: 25px 100px 25px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+
+  .socialmedia_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .socialmedia_footer .redes-sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+  }
+
+  .socialmedia_footer .redes-sociais a img {
+    margin-top: 15%;
+    width: 80px;
+  }
+
+  .socialmedia_footer a img.logo_footer {
+    margin-bottom: 10%;
+  }
+
+  .navegacao_footer {
+    margin-bottom: 15%;
+  }
+
+  .ultimo {
+    margin-bottom: 25%;
+  }
+
+  .infos_footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .rodape-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+  }
+
+  .direitos-footer-bottom h1 {
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .direitos-footer-bottom span {
+    color: #b3b3b9;
+    font-size: 13px;
+    text-transform: none;
+  }
+
+  .rodape-bottom img {
+    width: 15%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1430px) {
+  .catalogoo {
+    justify-content: flex-start;
+    margin-left: 0%;
+  }
+
+  .conteudoa {
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .tab1 {
+    width: 100%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .tab1 button h1 {
+    font-size: 16px;
+  }
+
+  select {
+    font-size: 14pt;
+  }
+
+  button.btn_catalogo-imoveis a {
+    padding: 25px;
+  }
+}
+
+/* Extra Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1533px) and (max-width: 1631px) {
+  figure {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  figure img {
+    height: 400px;
+  }
+  
+}
+
+@media (min-width: 1631px) and (max-width: 1802px) {
+  footer img {
+    width: 50px;
+  }
+
+  figure {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+  }
+}
+
+@media (min-width: 1802px) {
+  footer img {
+    width: 50px;
+  }
+
+  figure {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 25%;
+  }
+
+  figure img {
+    height: 400px;
+  }
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
