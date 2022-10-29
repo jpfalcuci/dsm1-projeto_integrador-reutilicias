@@ -7,6 +7,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
 }
 
 .menu {
@@ -18,7 +21,7 @@ header {
     /* gap: 40vw; */
 }
 
-a {
+a:any-link {
     text-decoration: none;
     padding: 0.5rem;
     color: var(--verde-escuro);
