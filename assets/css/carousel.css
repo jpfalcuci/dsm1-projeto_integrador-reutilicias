@@ -1,13 +1,13 @@
 .slider {
     margin: 0 auto;
     width: 100vw;
-    height: 350px;
+    height: 19.80vw;
     overflow: hidden;
 }
 
 .slides {
     width: 400%;
-    height: 350px;
+    height: 19.80vw;
     display: flex;
 }
 
@@ -19,6 +19,7 @@
     width: 25%;
     position: relative;
     transition: 1.5s;
+    height: 19.80vw;
 }
 
 .slide img {
