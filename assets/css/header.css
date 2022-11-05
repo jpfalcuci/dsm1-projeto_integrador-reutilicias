@@ -1,7 +1,6 @@
-header {
+/* header {
     background-color: #eeeeee;
-    /* cor temporária, apenas para ajustar elemento */
-}
+} */
 
 .cabecalho {
     display: flex;
@@ -18,7 +17,7 @@ header {
     align-items: center;
     padding: 1rem;
     font-family: var(--fonte-reuti);
-    /* gap: 40vw; */
+    gap: 2rem;
 }
 
 a:any-link {

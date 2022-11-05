@@ -1,13 +1,13 @@
 .slider {
     margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    width: 100vw;
+    height: 350px;
     overflow: hidden;
 }
 
 .slides {
     width: 400%;
-    height: 400px;
+    height: 350px;
     display: flex;
 }
 
@@ -22,13 +22,13 @@
 }
 
 .slide img {
-    width: 800px;
+    width: 100vw;
 }
 
-.manual-navigation {
+.manual-navigation, .navigation-auto {
     position: absolute;
-    width: 800px;
-    margin-top: 375px;
+    width: 100vw;
+    margin-top: 18.10vw;
     display: flex;
     justify-content: center;
 }
@@ -71,14 +71,6 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-}
-
-.navigation-auto {
-    position: absolute;
-    width: 800px;
-    margin-top: 375px;
-    display: flex;
-    justify-content: center;
 }
 
 .navigation-auto div:not(:last-child) {
