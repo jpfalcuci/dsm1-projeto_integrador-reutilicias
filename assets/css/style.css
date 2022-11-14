@@ -17,3 +17,18 @@
     font-size: 1.8rem;
     padding: 1rem;
 }
+
+.ultimas-publicacoes--cards,
+.dicas-jardinagem--cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem 4rem;
+    margin: auto;
+}
+
+.ultimas-publicacoes--card,
+.dicas-jardinagem--card {
+    flex: 25%;
+    overflow: hidden;
+}
