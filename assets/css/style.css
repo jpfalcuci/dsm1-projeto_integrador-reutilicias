@@ -1,11 +1,11 @@
 .conteudo {
     text-align: center;
     padding: 2rem;
-    width: 900px;
-    margin: 0 auto;
+    width: 1100px;
+    margin: 0 auto
 }
 
-.conteudo p {
+.textos {
     font-family: var(--fonte-conteudo-cond);
     text-align: justify;
     text-indent: 2rem;
@@ -31,4 +31,8 @@
 .dicas-jardinagem--card {
     flex: 25%;
     overflow: hidden;
+}
+
+.feira {
+    padding: 0.5rem;
 }

@@ -6,14 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reutilícias</title>
+    <link rel="shortcut icon" href="assets/img/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/carousel.css">
 </head>
 
 <body>
-    <!-- header -->
-    <iframe src="header.html" frameborder="0" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+    <header class="cabecalho">
+        <nav class="menu">
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo Reutilicias" class="logo_menu"></a>
+            <a href="receitas.html">Receitas</a>
+            <a href="petlicias.html">PET<span>licias</span></a>
+            <a href="veganlicias.html">VEGAN<span>licias</span></a>
+            <a href="hortalicias.html">HORTA<span>licias</span></a>
+            <a href="feira.html">Feira</a>
+            <!-- <a href="#">Categorias</a> -->
+            <a href="sobre-nos.html">Sobre nós</a>
+        </nav>
+
+        <!-- <div class="pesquisa">
+            <input type="text" id="cx-pesquisar" placeholder="Pesquise aqui...">
+            <button id="btn-pesquisar">Pesquisar</button>
+        </div> -->
+    </header>
 
     <!-- carousel -->
     <div class="slider">
@@ -58,7 +76,7 @@
     <main>
         <section class="conteudo bem-vindo">
             <h1 class="titulo">Seja bem vindo!</h1>
-            <p>Olá, se você chegou até aqui, é porque, assim como nós, você também se preocupa com a sustentabilidade e o meio-ambiente. Desejamos a você nossas boas-vindas, fique à vontade e nos ajude a construir um mundo melhor e mais sustentável, através da reutilização de alimentos que seriam facilmente descartados. 😉
+            <p class="textos">Olá, se você chegou até aqui, é porque, assim como nós, você também se preocupa com a sustentabilidade e o meio-ambiente. Desejamos a você nossas boas-vindas, fique à vontade e nos ajude a construir um mundo melhor e mais sustentável, através da reutilização de alimentos que seriam facilmente descartados. 😉
             </p>
         </section>
         
@@ -69,35 +87,35 @@
                 <div class="ultimas-publicacoes--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/ultimas_noticias/ult_not_01.png" alt="Últimas notícias 1">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p class="textos">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     </a>
                 </div>
             
                 <div class="ultimas-publicacoes--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/ultimas_noticias/ult_not_02.png" alt="Últimas notícias 2">
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                        <p class="textos">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
                     </a>
                 </div>
 
                 <div class="ultimas-publicacoes--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/ultimas_noticias/ult_not_03.png" alt="Últimas notícias 3">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                        <p class="textos">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
                     </a>
                 </div>
             
                 <div class="ultimas-publicacoes--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/ultimas_noticias/ult_not_04.png" alt="Últimas notícias 4">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                        <p class="textos">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
                     </a>
                 </div>
             
                 <div class="ultimas-publicacoes--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/ultimas_noticias/ult_not_05.png" alt="Últimas notícias 5">
-                        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
+                        <p class="textos">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.</p>
                     </a>
                 </div>
             </div>
@@ -115,36 +133,53 @@
                 <div class="dicas-jardinagem--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/dicas_jardinagem/dicas_jard_01.png" alt="Dicas jardinagem 1">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p class="textos">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     </a>
                 </div>
                 
                 <div class="dicas-jardinagem--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/dicas_jardinagem/dicas_jard_02.png" alt="Dicas jardinagem 2">
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                        <p class="textos">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
                     </a>
                 </div>
                 
                 <div class="dicas-jardinagem--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/dicas_jardinagem/dicas_jard_03.png" alt="Dicas jardinagem 3">
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
+                        <p class="textos">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</p>
                     </a>
                 </div>
                 
                 <div class="dicas-jardinagem--card">
                     <a href="#" target="_blank" rel="noopener noreferrer">
                         <img src="assets/img/dicas_jardinagem/dicas_jard_04.png" alt="Dicas jardinagem 4">
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                        <p class="textos">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                     </a>
                 </div>
             </div>
         </section>
     </main>
 
-    <!-- footer -->
-    <iframe src="footer.html" frameborder="0" width="100%" height="121px" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe>
+    <footer class="rodape">
+        <section class="email-redes">
+            <div>
+                <label for="emailid">E-mail:</label>
+                <input type="email" id="emailid" placeholder="email@email.com">
+            </div>
+
+            <nav class="redes-sociais">
+                <a href="#"><img src="assets/img/redes_sociais/instagram.svg" alt="Ícone Instagram" class="icones"></a>
+                <a href="#"><img src="assets/img/redes_sociais/youtube.svg" alt="Ícone YouTube" class="icones"></a>
+                <a href="#"><img src="assets/img/redes_sociais/twitter.svg" alt="Ícone Twitter" class="icones"></a>
+            </nav>
+        </section>
+
+        <section class="rodape-info">
+            <p class="textos">Página desenvolvida em conformidade com as regras do Projeto Integrador do primeiro semestre do curso de Desenvolvimento de Software Multiplataforma</p>
+            <p class="copyright">Copyright 2022</p>
+        </section>
+    </footer>
 
     <script src="assets/js/main.js"></script>
 </body>

@@ -2,9 +2,6 @@
     background-color: var(--verde-escuro);
     color: #ffffff;
     padding-bottom: 0.8rem;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
 }
 
 .email-redes {
