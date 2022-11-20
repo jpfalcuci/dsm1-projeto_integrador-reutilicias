@@ -1,7 +1,7 @@
 .conteudo {
     text-align: center;
     padding: 1.5rem;
-    width: 1100px;
+    width: 1250px;
     margin: 0 auto
 }
 
@@ -56,6 +56,14 @@ h3.titulo {
 .dicas-jardinagem--card {
     flex: 25%;
     overflow: hidden;
+}
+
+.ultimas-publicacoes--card a,
+.ultimas-publicacoes--card a:hover, 
+.dicas-jardinagem--card a,
+.dicas-jardinagem--card a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .feira {

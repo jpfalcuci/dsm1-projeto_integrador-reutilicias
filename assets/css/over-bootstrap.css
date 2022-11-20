@@ -1,0 +1,32 @@
+.btn,
+.btn:hover,
+.btn:enabled,
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:enabled,
+.dropdown-toggle,
+.dropdown-toggle:hover,
+.dropdown-toggle:enabled {
+    background-color: white;
+    border: none;
+    color: var(--verde-escuro);
+    font-size: 1.1rem;
+}
+
+.btn:hover,
+.btn-secondary:hover,
+.dropdown-toggle:hover {
+    opacity: 0.6;
+    transform: scale(1.10, 1.10);
+    transition: 0.5s;
+}
+
+.btn:active,
+.btn-secondary:active,
+.dropdown-toggle:active {
+    background-color: white;
+}
+
+button #pers:active {
+    color: white;
+}
