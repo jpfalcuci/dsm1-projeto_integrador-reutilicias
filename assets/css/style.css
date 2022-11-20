@@ -1,14 +1,12 @@
 .conteudo {
     text-align: center;
-    padding: 2rem;
+    padding: 1.5rem;
     width: 1100px;
     margin: 0 auto
 }
 
-.textos {
-    font-family: var(--fonte-conteudo-cond);
-    text-align: justify;
-    text-indent: 2rem;
+.conteudo--receitas {
+    max-width: 800px;
 }
 
 .titulo {
@@ -16,6 +14,33 @@
     color: var(--vermelho);
     font-size: 1.8rem;
     padding: 1rem;
+}
+
+.titulo-receita {
+    font-family: var(--fonte-reuti);
+    color: var(--verde-escuro);
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+h3.titulo {
+    text-align: left;
+}
+
+.textos,
+.textos--sobre {
+    font-family: var(--fonte-conteudo-cond);
+    font-size: 1.2rem;
+    text-indent: 2rem;
+}
+
+.textos {
+    text-align: justify;
+}
+
+.textos li,
+.instrucoes {
+    margin: 0.7rem 0;
 }
 
 .ultimas-publicacoes--cards,
@@ -42,4 +67,77 @@
 .video:hover {
     opacity: 0.8;
     transition: 0.5s;
+}
+
+
+/* sobre nós */
+span.reuti {
+    font-family: var(--fonte-reuti);
+    color: var(--verde-escuro);
+}
+
+span.licias {
+    font-family: var(--fonte-licias);
+    color: var(--vermelho);
+}
+
+.autores--perfis {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    padding-top: 2.5rem;
+}
+
+.autores--foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.autores--perfis figure:hover {
+    transform: scale(1.10, 1.10);
+    transition: 0.5s;
+}
+
+.autores--perfis figure figcaption {
+    font-size: 1.3rem;
+    padding-top: 0.3rem;
+}
+
+.onu p:not(:first-child),
+.sobre p:not(:first-child) {
+    padding-top: 1rem;
+}
+
+.item12-onu {
+    width: 400px;
+    height: 400px;
+    padding-top: 1rem;
+}
+
+.item12-onu:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.item12 {
+    font-size: 1rem;
+    margin: 0 15rem;
+}
+
+.item12 span {
+    font-weight: bold;
+}
+
+.projetos {
+    width: 500px;
+    height: 250px;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 5px 5px 8px rgb(129, 129, 129);
+}
+
+.carousel-item {
+    width: 100%;
 }
