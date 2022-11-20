@@ -35,11 +35,11 @@
 }
 
 .manual-btn {
-    border: 2px solid var(--vermelho);
+    border: 2px solid #FFF;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .manual-btn:not(:last-child) {
@@ -47,7 +47,7 @@
 }
 
 .manual-btn:hover {
-    background-color: #FFF;
+    background-color: var(--vermelho);
 }
 
 #radio1:checked ~ .first {

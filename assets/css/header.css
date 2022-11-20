@@ -27,3 +27,13 @@
 .logo_menu {
     height: 6rem;
 }
+
+.menu a:hover:not(:first-child) {
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+#ativo {
+    text-decoration: underline;
+    opacity: 0.6;
+}

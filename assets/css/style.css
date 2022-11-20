@@ -36,3 +36,10 @@
 .feira {
     padding: 0.5rem;
 }
+
+.ultimas-publicacoes--card:hover,
+.dicas-jardinagem--card:hover,
+.video:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
