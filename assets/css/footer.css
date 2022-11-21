@@ -2,9 +2,6 @@
     background-color: var(--verde-escuro);
     color: #ffffff;
     padding-bottom: 0.8rem;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
 }
 
 .email-redes {
@@ -27,6 +24,11 @@
     height: 1.6rem;
 }
 
+.icones:hover {
+    transform: scale(1.15, 1.15);
+    transition: 0.5s;
+}
+
 .rodape-info {
     font-family: var(--fonte-conteudo);
     font-size: 0.9rem;
@@ -35,4 +37,5 @@
 
 .rodape-info p {
     padding: 0.3rem;
+    margin: 0;
 }

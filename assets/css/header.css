@@ -1,32 +1,42 @@
-header {
-    background-color: #eeeeee;
-    /* cor temporária, apenas para ajustar elemento */
-}
-
 .cabecalho {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    width: 100vw;
-    top: 0;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
     font-family: var(--fonte-reuti);
-    /* gap: 40vw; */
+    gap: 4rem;
 }
 
-a:any-link {
+.menu span {
+    font-family: var(--fonte-licias);
+    color: var(--vermelho);
+}
+
+.menu a {
     text-decoration: none;
     padding: 0.5rem;
     color: var(--verde-escuro);
+    font-size: 1.1rem;
 }
 
 .logo_menu {
-    height: 7rem;
+    height: 6rem;
+}
+
+.menu a:hover:not(:first-child) {
+    opacity: 0.6;
+    transform: scale(1.10, 1.10);
+    transition: 0.5s;
+    color: none;
+}
+
+#ativo {
+    text-decoration: underline;
+    opacity: 0.6;
 }
