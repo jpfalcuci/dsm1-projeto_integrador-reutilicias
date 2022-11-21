@@ -1,8 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+} */
+
 .conteudo {
-    text-align: center;
-    padding: 1.5rem;
-    width: 1250px;
-    margin: 0 auto
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.ultimas-publicacoes--container,
+.dicas-jardinagem--container {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+figure {
+    width: 26vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dicas-jardinagem--card img,
+.ultimas-publicacoes--card img {
+    width: 25vw;
+}
+
+.dicas-jardinagem--card figcaption,
+.ultimas-publicacoes--card figcaption {
+    width: 25vw;
 }
 
 .conteudo--receitas {
@@ -12,8 +55,14 @@
 .titulo {
     font-family: var(--fonte-licias);
     color: var(--vermelho);
-    font-size: 1.8rem;
-    padding: 1rem;
+}
+
+.conteudo h1 {
+    font-size: 3.5em;
+}
+
+.conteudo h2 {
+    font-size: 2.5em;
 }
 
 .titulo-receita {
@@ -28,34 +77,27 @@ h3.titulo {
 }
 
 .textos,
-.textos--sobre {
+.textos--sobre,
+figcaption {
     font-family: var(--fonte-conteudo-cond);
-    font-size: 1.2rem;
-    text-indent: 2rem;
+    font-size: 1.5rem;
 }
 
 .textos {
     text-align: justify;
 }
 
+figcaption {
+    margin-top: 8px;    
+    font-size: .9em;
+    line-height: 18px;
+    padding: 0;
+    text-align: justify;
+}
+
 .textos li,
 .instrucoes {
     margin: 0.7rem 0;
-}
-
-.ultimas-publicacoes--cards,
-.dicas-jardinagem--cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem 4rem;
-    margin: auto;
-}
-
-.ultimas-publicacoes--card,
-.dicas-jardinagem--card {
-    flex: 25%;
-    overflow: hidden;
 }
 
 .ultimas-publicacoes--card a,
@@ -66,10 +108,16 @@ h3.titulo {
     color: black;
 }
 
+
 .feira {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 0.5rem;
 }
-
+.feira .mapa {
+    width: 80vw;
+}
 .ultimas-publicacoes--card:hover,
 .dicas-jardinagem--card:hover,
 .video:hover {
@@ -79,6 +127,13 @@ h3.titulo {
 
 
 /* sobre nós */
+#main-sobre-nos section {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 span.reuti {
     font-family: var(--fonte-reuti);
     color: var(--verde-escuro);
@@ -110,11 +165,6 @@ span.licias {
 .autores--perfis figure figcaption {
     font-size: 1.3rem;
     padding-top: 0.3rem;
-}
-
-.onu p:not(:first-child),
-.sobre p:not(:first-child) {
-    padding-top: 1rem;
 }
 
 .item12-onu {
