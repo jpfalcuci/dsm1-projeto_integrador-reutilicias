@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;900&family=Satisfy&display=swap');
 
 :root {
-    --verde-escuro: #038C4C;
+    --verde-escuro: #038c4cde;
+    --verde-mais-escuro: #024D2A;
     --verde-claro: #8CBF7E;
+    --verde-mais-claro: #e0ffd7;
     --amarelo: #F2A444;
     --marrom: #73461F;
     --vermelho: #F25749;
