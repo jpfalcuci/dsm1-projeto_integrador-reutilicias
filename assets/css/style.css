@@ -1,3 +1,4 @@
+/* GERAL */
 body {
     display: flex;
     flex-direction: column;
@@ -6,19 +7,39 @@ body {
     align-items: center;
 }
 
-/* main section {
+.titulo {
+    font-family: var(--fonte-licias);
+    color: var(--vermelho);
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.textos {
+    font-family: var(--fonte-conteudo-cond);
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+/* INDEX */
+#index-main {
     display: flex;
     flex-direction: column;
-    row-gap: 1.5rem;
-} */
-
+    align-items: center;
+    gap: 5rem;
+}
 .conteudo {
     display: flex;
     width: 80vw;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    gap: 1.5rem;
 }
 
 .ultimas-publicacoes--container,
@@ -31,73 +52,30 @@ body {
     gap: 24px;
 }
 
-figure {
+.conteudo figure {
     width: 26vw;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.dicas-jardinagem--card img,
-.ultimas-publicacoes--card img {
+.conteudo img {
     width: 25vw;
 }
 
-.dicas-jardinagem--card figcaption,
-.ultimas-publicacoes--card figcaption {
+.conteudo figcaption {
     width: 25vw;
-}
-
-.conteudo--receitas {
-    max-width: 800px;
-}
-
-.titulo {
-    font-family: var(--fonte-licias);
-    color: var(--vermelho);
-}
-
-.conteudo h1 {
-    font-size: 3.5em;
-}
-
-.conteudo h2 {
-    font-size: 2.5em;
-}
-
-.titulo-receita {
-    font-family: var(--fonte-reuti);
-    color: var(--verde-escuro);
-    font-size: 1.8rem;
-    padding: 1rem;
-}
-
-h3.titulo {
-    text-align: left;
-}
-
-.textos,
-.textos--sobre,
-figcaption {
+    margin-top: 8px;
+    line-height: 18px;
+    padding: 0;
+    text-align: justify;
     font-family: var(--fonte-conteudo-cond);
     font-size: 1.5rem;
 }
 
-.textos {
-    text-align: justify;
-}
-
-figcaption {
-    margin-top: 8px;    
+.ultimas-publicacoes--card figcaption,
+.dicas-jardinagem--card figcaption {
     font-size: .9em;
-    line-height: 18px;
-    padding: 0;
-    text-align: justify;
-}
-
-.textos li,
-.instrucoes {
-    margin: 0.7rem 0;
 }
 
 .ultimas-publicacoes--card a,
@@ -108,7 +86,46 @@ figcaption {
     color: black;
 }
 
+.ultimas-publicacoes--card:hover,
+.dicas-jardinagem--card:hover,
+.video:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
 
+/* RECEITAS */
+.receitas {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10vw;
+    row-gap: 8vh;
+    margin: 0 auto;
+}
+
+/* PÁGINA RECEITAS */
+.pagina-receitas {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.titulo-receita {
+    font-family: var(--fonte-reuti);
+    color: var(--verde-escuro);
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.textos li,
+.instrucoes {
+    margin: 0.7rem 0;
+}
+
+/* FEIRA */
 .feira {
     display: flex;
     flex-direction: column;
@@ -118,17 +135,17 @@ figcaption {
 .feira .mapa {
     width: 80vw;
 }
-.ultimas-publicacoes--card:hover,
-.dicas-jardinagem--card:hover,
-.video:hover {
-    opacity: 0.8;
-    transition: 0.5s;
+
+/* SOBRE NOS */
+#main-sobre-nos {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-
-/* sobre nós */
 #main-sobre-nos section {
-    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,6 +182,7 @@ span.licias {
 .autores--perfis figure figcaption {
     font-size: 1.3rem;
     padding-top: 0.3rem;
+    text-align: center;
 }
 
 .item12-onu {
@@ -180,7 +198,7 @@ span.licias {
 
 .item12 {
     font-size: 1rem;
-    margin: 0 15rem;
+    margin: 0 15rem 2rem 15rem;
 }
 
 .item12 span {

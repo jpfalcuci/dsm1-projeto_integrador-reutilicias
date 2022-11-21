@@ -1,12 +1,3 @@
-.receitas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 5rem;
-    flex-wrap: wrap;
-    padding: 5rem 5rem;
-}
-
 .receitas--cards--imagem,
 .receitas--cards--texto,
 .receitas--cards--texto--hort {

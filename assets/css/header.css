@@ -14,6 +14,10 @@
     gap: 4rem;
 }
 
+.dropdown-menu {
+    text-align: center;
+}
+
 .menu span {
     font-family: var(--fonte-licias);
     color: var(--vermelho);
