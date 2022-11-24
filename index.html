@@ -12,22 +12,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/header.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/carousel.css">
+     <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/style_index.css">
+    <link rel="stylesheet" href="assets/css/carousel_index.css">
     <link rel="stylesheet" href="assets/css/over-bootstrap.css">
 </head>
 
 <body>
     <header class="cabecalho">
+        <a href="index.html"><img src="assets/img/logo.png" alt="Logo Reutilicias" class="logo_menu"></a>
         <nav class="menu">
-            <a href="index.html"><img src="assets/img/logo.png" alt="Logo Reutilicias" class="logo_menu"></a>
             <a href="receitas.html">Receitas</a>
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Categorias
-                </button>
+                    aria-expanded="false">Categorias</button>
                 <ul class="dropdown-menu">
                     <li><a href="petlicias.html">PET<span>licias</span></a></li>
                     <li><a href="veganlicias.html">VEGAN<span>licias</span></a></li>
@@ -78,9 +76,9 @@
             </div>
         </div>
     </div>
-
+    
     <main id="index-main">
-        <section class="conteudo">
+        <section id="bem-vindo" class="conteudo">
             <h1 class="titulo">Seja bem vindo!</h1>
             <p class="textos">Olá, se você chegou até aqui, é porque, assim como nós, você também se preocupa com a
                 sustentabilidade e o meio-ambiente. Desejamos a você nossas boas-vindas, fique à vontade e nos ajude a
@@ -88,67 +86,65 @@
                 descartados. 😉</p>
         </section>
 
-        <section class="conteudo">
+        <section id="ultimas-publicacoes" class="conteudo">
             <h2 class="titulo">Últimas publicações</h2>
 
-                <div class="ultimas-publicacoes--container">
-                    <div class="ultimas-publicacoes--card">
+            <div class="ultimas-publicacoes--container">
+                <div id="card01" class="ultimas-publicacoes--card">
+                    <figure>
                         <a href="#" target="_blank" rel="noopener noreferrer">
-                            <figure>
-                                <img src="assets/img/ultimas_noticias/ult_not_03.png" alt="Últimas notícias 2">
-                                <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis.</figcaption>
-                            </figure>
+                            <img src="assets/img/ultimas_noticias/ult_not_03.png" alt="Últimas notícias 2">
                         </a>
-                    </div>
-
-                    <div class="ultimas-publicacoes--card">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <figure>
-                                <img src="assets/img/ultimas_noticias/ult_not_04.png" alt="Últimas notícias 2">
-                                <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis.</figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="ultimas-publicacoes--card">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <figure>
-                                <img src="assets/img/ultimas_noticias/ult_not_05.png" alt="Últimas notícias 2">
-                                <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis.</figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="ultimas-publicacoes--card">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <figure>
-                                <img src="assets/img/ultimas_noticias/ult_not_03.png" alt="Últimas notícias 2">
-                                <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis.</figcaption>
-                            </figure>
-                        </a>
-                    </div>
-                    <div class="ultimas-publicacoes--card">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <figure>
-                                <img src="assets/img/ultimas_noticias/ult_not_04.png" alt="Últimas notícias 2">
-                                <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                    veritatis.</figcaption>
-                            </figure>
-                        </a>
-                    </div>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
+                    </figure>
                 </div>
+
+                <div id="card02" class="ultimas-publicacoes--card">
+                    <figure>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/ultimas_noticias/ult_not_04.png" alt="Últimas notícias 2">
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
+                </div>
+
+                <div id="card03" class="ultimas-publicacoes--card">
+                    <figure>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/ultimas_noticias/ult_not_05.png" alt="Últimas notícias 2">
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
+                    </figure>
+                </div>
+
+                <div id="card04" class="ultimas-publicacoes--card">
+                    <figure>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/ultimas_noticias/ult_not_01.png" alt="Últimas notícias 2">
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium is iste natus od.</figcaption>
+                        
+                        
+
+                    </figure>
+                </div>
+
+                <div id="card05" class="ultimas-publicacoes--card">
+                    <figure>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/ultimas_noticias/ult_not_04.png" alt="Últimas notícias 2">
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
+                        
+                        
+                    </figure>
+                </div>
+            </div>
         </section>
 
-        <section class="conteudo">
+        <section id="mais-sobre" class="conteudo">
             <h2 class="titulo">Mais sobre o projeto</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Vv4K66p9POs"
+            <iframe width="780" height="450" src="https://www.youtube.com/embed/Vv4K66p9POs"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen class="video"></iframe>
@@ -157,69 +153,62 @@
         <section class="conteudo">
             <h2 class="titulo">Dicas de jardinagem</h2>
             <div class="dicas-jardinagem--container">
-                <div class="dicas-jardinagem--card">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <figure>
-                            <img src="assets/img/dicas_jardinagem/dicas_jard_02.png" alt="Últimas notícias 2">
-                            <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                veritatis.</figcaption>
+                <div id="card06" class="dicas-jardinagem--card">
+                    <figure>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/dicas_jardinagem/dicas_jard_02.png" alt="Últimas notícias 2">
+                            </a>
+                            <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
                         </figure>
-                    </a>
                 </div>
 
-                <div class="dicas-jardinagem--card">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <figure>
+                <div id="card07" class="dicas-jardinagem--card">
+                    <figure>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                             <img src="assets/img/dicas_jardinagem/dicas_jard_03.png" alt="Últimas notícias 2">
-                            <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                veritatis.</figcaption>
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
                         </figure>
-                    </a>
                 </div>
-                <div class="dicas-jardinagem--card">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <figure>
+
+                <div id="card08" class="dicas-jardinagem--card">
+                    <figure>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                             <img src="assets/img/dicas_jardinagem/dicas_jard_02.png" alt="Últimas notícias 2">
-                            <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                veritatis.</figcaption>
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
                         </figure>
-                    </a>
                 </div>
-                <div class="dicas-jardinagem--card">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <figure>
+
+                <div id="card09"  class="dicas-jardinagem--card">
+                    <figure>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/dicas_jardinagem/dicas_jard_04.png" alt="Últimas notícias 2">
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium is iste natus od.</figcaption>
+                </div>
+
+                <div id="card10" class="dicas-jardinagem--card">
+                    <figure>
+                            <a href="#" target="_blank" rel="noopener noreferrer">
                             <img src="assets/img/dicas_jardinagem/dicas_jard_03.png" alt="Últimas notícias 2">
-                            <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                veritatis.</figcaption>
+                        </a>
+                        <figcaption>Sed ut perspiciatis unde omnis iste natus od.</figcaption>
                         </figure>
-                    </a>
-                </div>
-                <div class="dicas-jardinagem--card">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
-                        <figure>
-                            <img src="assets/img/dicas_jardinagem/dicas_jard_02.png" alt="Últimas notícias 2">
-                            <figcaption>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
-                                veritatis.</figcaption>
-                        </figure>
-                    </a>
                 </div>
             </div>
 
-            
-            
+
+
         </section>
     </main>
 
     <footer class="rodape">
-        <section class="email-redes">
+        <section id="email-redes">
             <div>
-                <label for="emailid">E-mail:</label>
-                <input type="email" id="emailid" placeholder="email@email.com">
+                <label for="emailid" class="titulo-reuti">Assine nossa Newsletter: </label>
+                <input type="email" id="emailid" placeholder="email@dominio.com">
             </div>
 
             <nav class="redes-sociais">
@@ -229,10 +218,10 @@
             </nav>
         </section>
 
-        <section class="rodape-info">
-            <p>Página desenvolvida em conformidade com as regras do Projeto Integrador do primeiro semestre do curso de
+        <section id="rodape-info">
+            <p class="rodape-texto">Página desenvolvida em conformidade com as regras do Projeto Integrador do primeiro semestre do curso de
                 Desenvolvimento de Software Multiplataforma</p>
-            <p class="copyright">Copyright 2022</p>
+            <p class="copyright rodape-texto">Copyright 2022 ©️</p>
         </section>
     </footer>
 

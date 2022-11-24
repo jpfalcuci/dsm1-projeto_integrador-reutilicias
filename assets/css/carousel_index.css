@@ -1,6 +1,5 @@
 .slider {
-    width: 100vw;
-    height: 19.80vw;
+    position: relative;
     overflow: hidden;
 }
 
