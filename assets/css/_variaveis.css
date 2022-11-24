@@ -4,7 +4,7 @@
     --verde-escuro: #038c4cde;
     --verde-mais-escuro: #024D2A;
     --verde-claro: #8CBF7E;
-    --verde-mais-claro: #e0ffd7;
+    --verde-mais-claro: #e0ffd7c0;
     --amarelo: #F2A444;
     --marrom: #73461F;
     --vermelho: #F25749;
@@ -13,12 +13,4 @@
     --fonte-licias: 'Satisfy', cursive;
     --fonte-conteudo: 'Roboto', sans-serif;
     --fonte-conteudo-cond: 'Roboto Condensed', sans-serif;
-
-
-    /* outros exemplos */
-    --peso-titulo-destaque: 900;
-    --peso-botao: 700;
-
-    --tamanho-corpo: 1rem;
-    --tamanho-titulo: 1.375rem;
 }

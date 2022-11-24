@@ -32,15 +32,16 @@ nav.menu a:any-link {
     
 }
 
-nav.menu a:hover {
+nav.menu a:hover:not(:first-child) {
     opacity: 0.6;
     transform: scale(1.10, 1.10);
     transition: 0.5s;
     color: none;
 }
 
-nav.menu a:active {
+nav.menu a#ativo {
     text-decoration: underline;
+    opacity: 0.8;
 }
 
 nav.menu span {

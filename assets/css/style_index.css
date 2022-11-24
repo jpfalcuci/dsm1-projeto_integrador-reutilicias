@@ -80,6 +80,13 @@ div.dicas-jardinagem--card {
     width: fit-content;
 }
 
+div.ultimas-publicacoes--card:hover,
+div.dicas-jardinagem--card:hover,
+.video:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
 div#card01,
 div#card06 {
     grid-column: 1;
@@ -230,5 +237,3 @@ div.autores--perfis figure:hover {
 .carousel-item {
     width: 100%;
 }
-
-
