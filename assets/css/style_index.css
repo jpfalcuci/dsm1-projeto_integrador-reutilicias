@@ -1,7 +1,7 @@
 /* SCROLLBAR */
 /* width */
 ::-webkit-scrollbar {
-    width: 16px;
+    width: 14px;
   }
   
   /* Track */
@@ -18,11 +18,6 @@
     border-radius: .3rem;
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: var(--verde-mais-escuro);
-  }
-
 /* TOOLS */
 .titulo {
     font-family: var(--fonte-licias);
@@ -189,10 +184,15 @@ section.receitas {
 }
 
 /* FEIRA */
+main#main-feira {
+    margin: 2rem auto;
+}
+
 .feira {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
     padding: 0.5rem;
 }
 .feira .mapa {
@@ -272,4 +272,16 @@ div.autores--perfis figure:hover {
 /* PAGINA RECEITAS */
 section.pagina-receitas {
     width: 50vw;
+}
+
+p.creditos {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+a.caolinaria {
+    text-decoration: none;
+    color: #BF9765;
+    font-family: var(--fonte-licias);
 }
