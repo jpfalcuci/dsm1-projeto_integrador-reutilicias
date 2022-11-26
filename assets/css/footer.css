@@ -5,8 +5,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
-    padding: 2rem 0 1rem 0;
+    gap: 1rem;
+    padding: 1rem 0 .5rem 0;
 }
 
 section#email-redes {
@@ -29,11 +29,11 @@ section#email-redes ::placeholder {
 nav.redes-sociais {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 nav.redes-sociais img {
-    width: 2.5rem;
+    width: 2rem;
 }
 
 nav.redes-sociais img:hover {
@@ -43,7 +43,8 @@ nav.redes-sociais img:hover {
 
 
 section#rodape-info p {
+    width: 35vw;
     margin: 0;
     text-align: center;
-    font-size: .8rem;
+    font-size: .7rem;
 }
