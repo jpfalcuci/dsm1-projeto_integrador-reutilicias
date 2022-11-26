@@ -200,6 +200,10 @@ main#main-feira {
     width: 80vw;
 }
 
+#iframe-mapa {
+    height: 60vh;
+}
+
 /* SOBRE NOS */
 main#main-sobre-nos {
     margin: 2rem auto;
