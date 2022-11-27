@@ -1,0 +1,380 @@
+span#burguer {
+    width: 100vw;
+    background-color: var(--verde-escuro);
+    margin-top: 1rem;
+    padding: .2rem 0;
+    color: white;
+    display: block;
+    font-size: 35px;
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) {
+    /* TOOL */
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .titulo-reuti {
+        font-size: .8rem;
+    }
+
+    .titulo-receita {
+        font-size: 1.5rem;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+    }
+    header img.logo_menu {
+        width: 4rem;
+    }
+
+    nav#items {
+        width: 100vw;
+        display: none;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        gap: .3rem;
+        background-color: var(--verde-escuro);
+        border: 1px solid var(--verde-escuro);        
+    }
+
+    nav#items > a {
+        display: block;
+        color: white;
+    }
+
+    nav#items a:any-link {
+        font-size: .9rem;
+    }
+
+    .btn,
+    .btn:enabled,
+    .btn:active,
+    .btn:visited {
+        color: white;
+        font-size: .9rem;
+        padding: .5rem 0;
+    }
+
+    .dropdown-menu {
+        min-width: 7rem;
+    }
+
+
+    .dropdown-menu li:not(:last-child) {
+        margin: .7rem 0;
+    }
+
+    div.slider {
+        display: none;
+    }
+
+    main {
+        width: 87vw;
+        margin: .5rem auto;
+        gap: 2rem;
+    }
+
+    div.ultimas-publicacoes--card figcaption,
+    div.dicas-jardinagem--card figcaption {
+        display: none;
+    }
+
+    iframe {
+        height: 25vh;
+    }
+
+    footer {
+        gap: .5rem;
+        padding: .3rem .3rem;
+    }
+
+    section#email-redes {
+        flex-direction: column;
+        gap: .8rem;
+    }
+
+    section#email-redes > div {
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+    
+    section#email-redes input[type='email'] {
+        width: 9rem;
+        border-radius: 5px;
+    }
+
+    section#email-redes ::placeholder {
+        font-family: var(--fonte-reuti);
+        font-size: .8rem;
+    }
+
+    nav.redes-sociais {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+    
+    nav.redes-sociais img {
+        width: 1.5rem;
+    }
+
+    section#rodape-info p {
+       display: none;
+    }
+
+    section.pagina-receitas {
+        width: 90vw;
+    }
+
+    section#sobre-nos {
+        width: 87vw;
+    }
+
+    div.autores--perfis {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .item12 {
+        font-size: 1rem;
+        width: 80vw;
+    }
+
+    .projetos {
+        width: 300px;
+        height: 150px;
+        margin: 1rem auto;
+        border-radius: 2rem;
+        overflow: hidden;
+        box-shadow: 5px 5px 8px rgb(129, 129, 129);
+    }
+
+
+}
+
+@media screen and (min-width: 576px) {
+    span#burguer {
+        font-size: 48px;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .titulo-reuti {
+        font-size: 1rem;
+    }
+
+    header img.logo_menu {
+        width: 6rem;
+    }
+
+    nav#items {
+        background-color: var(--verde-escuro);
+        border: 1px solid var(--verde-escuro);        
+    }
+
+    nav#items a:any-link {
+        font-size: 1.5rem;
+    }
+
+    .btn,
+    .btn:enabled,
+    .btn:active,
+    .btn:visited {
+        color: white;
+        font-size: 1.5rem;
+        padding: .5rem 0;
+    }
+
+    .dropdown-menu {
+        min-width: 10rem;
+    }
+
+    .dropdown-menu li:not(:last-child) {
+        margin: 1rem 0;
+    }
+    
+    section#email-redes input[type='email'] {
+        width: 15rem;
+        border-radius: 5px;
+    }
+    
+    nav.redes-sociais img {
+        width: 2rem;
+    }
+
+    .projetos {
+        width: 500px;
+        height: 250px;
+        margin: 1rem auto;
+        border-radius: 2rem;
+        overflow: hidden;
+        box-shadow: 5px 5px 8px rgb(129, 129, 129);
+    }
+}
+
+@media screen and (min-width: 769px) {
+    span#burguer {
+        display: none;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    nav#items {
+        display: flex;
+        gap: 4rem;
+        background-color: white;
+        border: none;       
+    }
+
+    nav#items a:any-link {
+        font-size: 1.5rem;
+        color: var(--verde-escuro);
+    }
+
+    .btn,
+    .btn:enabled,
+    .btn:active,
+    .btn:visited {
+        color: var(--verde-escuro);
+    }
+
+    .dropdown-menu {
+        min-width: 10rem;
+    }
+
+    .dropdown-menu li:not(:last-child) {
+        margin: .8rem 0;
+    }
+
+    div.slider {
+        display: block;
+    }
+
+    .manual-btn,
+    .manual-navigation, 
+    .navigation-auto {
+        display: none;
+    }
+
+    main {
+        width: 87vw;
+        margin: 2rem auto;
+        gap: 2rem;
+    }
+    
+    section#email-redes input[type='email'] {
+        width: 15rem;
+        border-radius: 5px;
+    }
+    
+    nav.redes-sociais img {
+        width: 2rem;
+    }
+
+    div.autores--perfis {
+        display: flex;
+        justify-content: center;
+        gap: 6rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .titulo-receita {
+        font-size: 2rem;
+    }
+    header {       
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    header img.logo_menu {
+        width: 5rem;
+    }
+
+    nav#items {
+        width: fit-content;
+    }
+
+    nav#items a:any-link,
+    .btn,
+    .btn:enabled,
+    .btn:active,
+    .btn:visited {
+        font-size: 1.1rem;
+    }
+    
+    .dropdown-menu {
+        min-width: 8rem;
+    }
+
+    .dropdown-menu li:not(:last-child) {
+        margin: .3rem 0;
+    }
+
+    .manual-btn,
+    .manual-navigation, 
+    .navigation-auto {
+        display: flex;
+    }
+
+    div.ultimas-publicacoes--card figcaption,
+    div.dicas-jardinagem--card figcaption {
+        display: block;
+    }
+
+    iframe {
+        height: 50vh;
+    }
+
+    footer {
+        padding: 1rem 0 .5rem 0;
+        gap: 1rem;
+    }
+
+    section#email-redes {
+        flex-direction: row;
+        gap: 6rem;
+    }
+
+    nav.redes-sociais img {
+        width: 2rem;
+    }
+
+    section#rodape-info p {
+       display: block;
+       width: 90vw;
+    }
+
+    section.pagina-receitas {
+        width: 50vw;
+    }
+
+    .item12 {
+        font-size: 1rem;
+        width: 40vw;
+    }
+    
+}

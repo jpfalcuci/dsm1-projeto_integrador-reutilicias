@@ -55,14 +55,16 @@ span.licias {
 
 h1 {
     font-size: 3rem;
+    text-align: center;
 }
 
 h2 {
     font-size: 2.5rem;
+    text-align: center;
 }
 
 /* ALL */
-body {   
+body {
     min-height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -165,7 +167,7 @@ div.dicas-jardinagem--card img {
 div.ultimas-publicacoes--card figcaption,
 div.dicas-jardinagem--card figcaption {
     font-size: .95rem;
-    text-align: justify;
+    text-align: center;
     line-height: 18px;
 }
 

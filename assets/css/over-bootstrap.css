@@ -1,16 +1,14 @@
 .btn,
-.btn:hover,
 .btn:enabled,
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:enabled,
-.dropdown-toggle,
-.dropdown-toggle:hover,
-.dropdown-toggle:enabled {
-    background-color: white;
+.btn:active,
+.btn:visited {
+    background: none;
     border: none;
     color: var(--verde-escuro);
     font-size: 1.1rem;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #fff;
+    --bs-btn-active-color: var(--verde-escuro);
 }
 
 .btn:hover,
@@ -21,12 +19,10 @@
     transition: 0.5s;
 }
 
-.btn:active,
-.btn-secondary:active,
-.dropdown-toggle:active {
-    background-color: white;
-}
-
-button #pers:active {
-    color: white;
+.dropdown-menu {
+    min-width: 8.5rem;
+    text-align: center;
+    background-color: rgb(248, 255, 248);
+    border-radius: .5rem .5rem 1rem 1rem;
+    border: none;
 }
